@@ -12,3 +12,50 @@ img,
 video {
   display: block;
 }
+
+.overlay {
+  font-family: Roboto;
+}
+
+.inner {
+  display: flex;
+  width: 420px;
+  padding: 30px;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+p {
+  font-size: 14px;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+p.button {
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+}
+.button {
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.primary {
+  color: #fff;
+  border-radius: 3px;
+  background: #1867c0;
+  box-shadow: 2px 2px 2px -1px rgba(24, 103, 192, 0.25);
+}
